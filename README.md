@@ -8,7 +8,7 @@ Time, Number, and DateTime pickers. Built with Kotlin, this library enhances the
 offering intuitive and flexible picker components that are easy to integrate and extend.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Jitpack](https://jitpack.io/v/neo-turak/BasePicker.svg)](https://jitpack.io/#neo-turak/BasePicker)
+[![](https://jitpack.io/v/neo-turak/BasePicker.svg)](https://jitpack.io/#neo-turak/BasePicker)
 
 ## Features
 
