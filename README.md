@@ -56,7 +56,7 @@ In your **app** build.gradle.kts (or build.gradle):
 ```groovy
 
 dependencies {
-    implementation("com.github.neoturak:picker:TAG")
+    implementation("com.github.neo-turak:BasePicker:TAG")
 }
 
 ```
