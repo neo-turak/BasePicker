@@ -71,7 +71,7 @@ Sync your project, and you’re ready to go!
 
 ### XML Example
 
-Add a ShapeableImageView with rounded corners, stroke, and gradient:
+Add a DateTimePicker:
 
 ```xml
 
@@ -102,6 +102,8 @@ dateTimePicker.setOnChangedListener(object : DateTimePicker.OnChangedListener {
 
 })
 ```
+
+There is too much methods you can use. It is better to download the project to view by yourself.
 
 ## Attributes(DateTimePicker)
 

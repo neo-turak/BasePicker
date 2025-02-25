@@ -45,8 +45,7 @@
             android:id="@+id/dtp_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:picker_endYear="" />
+            android:layout_marginTop="20dp" />
 
         <com.github.neoturak.picker.HourMinutePicker
             android:layout_width="match_parent"
