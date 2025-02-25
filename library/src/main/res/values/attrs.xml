@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Don't touch this -->
+    <attr name="numberPickerStyle" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <attr name="np_width" format="dimension" />
+        <attr name="np_height" format="dimension" />
+        <attr name="np_accessibilityDescriptionEnabled" format="boolean" />
+        <attr name="np_divider" format="reference" />
+        <attr name="np_dividerType" format="enum">
+            <enum name="side_lines" value="0" />
+            <enum name="underline" value="1" />
+        </attr>
+        <attr name="np_dividerColor" format="color" />
+        <attr name="np_dividerDistance" format="dimension" />
+        <attr name="np_dividerLength" format="dimension" />
+        <attr name="np_dividerThickness" format="dimension" />
+        <attr name="np_fadingEdgeEnabled" format="boolean" />
+        <attr name="np_fadingEdgeStrength" format="float" />
+        <attr name="np_formatter" format="string" />
+        <attr name="np_hideWheelUntilFocused" format="boolean" />
+        <attr name="np_itemSpacing" format="dimension" />
+        <attr name="np_lineSpacingMultiplier" format="float" />
+        <attr name="np_max" format="integer" />
+        <attr name="np_maxFlingVelocityCoefficient" format="integer" />
+        <attr name="np_min" format="integer" />
+        <attr name="np_order" format="enum">
+            <enum name="ascending" value="0" />
+            <enum name="descending" value="1" />
+        </attr>
+        <attr name="np_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="np_scrollerEnabled" format="boolean" />
+        <attr name="np_selectedTextAlign" format="enum">
+            <enum name="selectedTextAlignRight" value="0" />
+            <enum name="selectedTextAlignCenter" value="1" />
+            <enum name="selectedTextAlignLeft" value="2" />
+        </attr>
+        <attr name="np_selectedTextColor" format="color" />
+        <attr name="np_selectedTextSize" format="dimension" />
+        <attr name="np_selectedTextStrikeThru" format="boolean" />
+        <attr name="np_selectedTextUnderline" format="boolean" />
+        <attr name="np_selectedTypeface" format="string" />
+        <attr name="np_textAlign" format="enum">
+            <enum name="textAlignRight" value="0" />
+            <enum name="textAlignCenter" value="1" />
+            <enum name="textAlignLeft" value="2" />
+        </attr>
+        <attr name="np_textColor" format="color" />
+        <attr name="np_textSize" format="dimension" />
+        <attr name="np_textStrikeThru" format="boolean" />
+        <attr name="np_textUnderline" format="boolean" />
+        <attr name="np_typeface" format="string" />
+        <attr name="np_value" format="integer" />
+        <attr name="np_wheelItemCount" format="integer" />
+        <attr name="np_wrapSelectorWheel" format="boolean" />
+    </declare-styleable>
+    <!--  Color for the solid color background if such for optimized rendering. -->
+    <attr name="picker_solidColor" format="color|reference" />
+    <!--  The divider for making the selection area. -->
+    <attr name="picker_selectionDivider" format="reference" />
+    <!--  The height of the selection divider. -->
+    <attr name="picker_selectionDividerHeight" format="dimension" />
+    <!--  The distance between the two selection dividers. -->
+    <attr name="picker_selectionDividersDistance" format="dimension" />
+    <!--  The min height of the NumberPicker. -->
+    <attr name="picker_internalMinHeight" format="dimension" />
+    <!--  The max height of the NumberPicker. -->
+    <attr name="picker_internalMaxHeight" format="dimension" />
+    <!--  The min width of the NumberPicker. -->
+    <attr name="picker_internalMinWidth" format="dimension" />
+    <!--  The max width of the NumberPicker. -->
+    <attr name="picker_internalMaxWidth" format="dimension" />
+    <!--  The layout of the number picker. -->
+    <attr name="picker_internalLayout" format="reference" />
+    <!--  textSize-->
+    <attr name="picker_selectionTextSize" format="dimension" />
+    <!--  textColor-->
+    <attr name="picker_selectionTextColor" format="color|reference" />
+    <!-- The unit of the number picker. -->
+    <attr name="picker_number_unit" format="string" />
+    <!-- ################################################## -->
+    <!-- The first year (inclusive), for example "1940".-->
+    <attr name="picker_startYear" format="integer" />
+    <!-- The last year (inclusive), for example "2010".-->
+    <attr name="picker_endYear" format="integer" />
+    <!-- Whether the day view is shown. -->
+    <attr name="picker_showDay" format="boolean" />
+    <!-- The minimal date shown by this calendar view in mm/dd/yyyy format. -->
+    <attr name="picker_minDate" format="string" />
+    <!-- The maximal date shown by this calendar view in mm/dd/yyyy format. -->
+    <attr name="picker_maxDate" format="string" />
+    <!--开始年份-->
+    <attr name="startYear" format="integer" />
+    <!--结束年份-->
+    <attr name="endYear" format="integer" />
+    <!-- The minimal date shown by this calendar view in mm/dd/yyyy format. -->
+    <attr name="minDate" format="string" />
+    <!-- The maximal date shown by this calendar view in mm/dd/yyyy format. -->
+    <attr name="maxDate" format="string" />
+
+    <!--    <declare-styleable name="NumberPicker">-->
+    <!--        <attr name="picker_solidColor" />-->
+    <!--        <attr name="picker_selectionDivider" />-->
+    <!--        <attr name="picker_selectionDividerHeight" />-->
+    <!--        <attr name="picker_selectionDividersDistance" />-->
+    <!--        <attr name="picker_internalMinHeight" />-->
+    <!--        <attr name="picker_internalMaxHeight" />-->
+    <!--        <attr name="picker_internalMinWidth" />-->
+    <!--        <attr name="picker_internalMaxWidth" />-->
+    <!--        <attr name="picker_internalLayout" />-->
+    <!--        <attr name="picker_selectionTextSize" />-->
+    <!--        <attr name="picker_selectionTextColor" />-->
+    <!--    </declare-styleable>-->
+
+    <declare-styleable name="DatePicker">
+        <attr name="picker_solidColor" />
+        <attr name="picker_selectionDivider" />
+        <attr name="picker_selectionDividerHeight" />
+        <attr name="picker_selectionDividersDistance" />
+        <attr name="picker_internalMinHeight" />
+        <attr name="picker_internalMaxHeight" />
+        <attr name="picker_internalMinWidth" />
+        <attr name="picker_internalMaxWidth" />
+        <attr name="picker_internalLayout" />
+        <attr name="picker_selectionTextSize" />
+        <attr name="picker_selectionTextColor" />
+
+        <attr name="picker_startYear" />
+        <attr name="picker_endYear" />
+        <attr name="picker_showDay" />
+        <attr name="picker_minDate" />
+        <attr name="picker_maxDate" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePicker">
+        <attr name="picker_solidColor" />
+        <attr name="picker_selectionDivider" />
+        <attr name="picker_selectionDividerHeight" />
+        <attr name="picker_selectionDividersDistance" />
+        <attr name="picker_internalMinHeight" />
+        <attr name="picker_internalMaxHeight" />
+        <attr name="picker_internalMinWidth" />
+        <attr name="picker_internalMaxWidth" />
+        <attr name="picker_internalLayout" />
+        <attr name="picker_selectionTextSize" />
+        <attr name="picker_selectionTextColor" />
+
+        <attr name="picker_startYear" />
+        <attr name="picker_endYear" />
+        <attr name="picker_minDate" />
+        <attr name="picker_maxDate" />
+    </declare-styleable>
+</resources>

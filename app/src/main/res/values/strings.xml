@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasePicker</string>
+    <string name="primary_title">Date,Time, HourMinute,Number</string>
+</resources>
